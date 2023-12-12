@@ -1,0 +1,40 @@
+{
+  "CDS Button": {
+    "prefix": ["c-btn", "cds-btn", "cds-button"],
+    "body": ["<cds-button appearance=\"${1:primary}\" text=\"${2:text}\" />"],
+    "description": "Cds-button component"
+  },
+  "CDS Badge": {
+    "prefix": ["c-badge", "cds-badge"],
+    "body": ["<cds-badge :count=\"${1:count}\" />"],
+    "description": "Cds-badge component"
+  },
+  "CDS checkbox": {
+    "prefix": ["c-checkbox", "cds-checkbox"],
+    "body": ["<cds-checkbox label=\"${1:label}\" description=\"${2:description}\"  />"],
+    "description": "Cds-checkbox component"
+  },
+  "CDS checkbox group": {
+    "prefix": ["c-checkbox-group", "cds-checkbox-group"],
+    "body": [
+      "<cds-checkbox-group label=\"${1:label}\" description=\"${2:description}\" >",
+      "\t<cds-checkbox label=\"${3:label}\" description=\"${4:description}\"  /$2>",
+      "\t</cds-checkbox-group>"
+    ],
+    "description": "Cds-checkbox-group component"
+  },
+  "CDS combobox": {
+    "prefix": ["c-combobox", "cds-combobox"],
+    "body": [
+      "<cds-combobox v-model=\"${1:model}\" :options=\"${2:options}\" delay=\"${3:delay}\" label=\"${4:label}\" description=\"${5:description}\" />"
+    ],
+    "description": "Cds-combobox component"
+  },
+  "CDS text-input": {
+    "prefix": ["c-text", "cds-text-input"],
+    "body": [
+      "<cds-text-input v-model=\"${1:model}\" name=\"${2:name}\" delay=\"${3:delay}\" label=\"${4:label}\" description=\"${5:description}\" />"
+    ],
+    "description": "Cds-combobox component"
+  }
+}
