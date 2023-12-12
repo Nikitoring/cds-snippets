@@ -18,7 +18,7 @@
     "prefix": ["c-checkbox-group", "cds-checkbox-group"],
     "body": [
       "<cds-checkbox-group label=\"${1:label}\" description=\"${2:description}\" >",
-      "\t<cds-checkbox label=\"${3:label}\" description=\"${4:description}\"  /$2>",
+      "\t<cds-checkbox label=\"${3:label}\" description=\"${4:description}\">",
       "\t</cds-checkbox-group>"
     ],
     "description": "Cds-checkbox-group component"
