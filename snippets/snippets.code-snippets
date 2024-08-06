@@ -26,7 +26,7 @@
   "CDS combobox": {
     "prefix": ["c-combobox", "cds-combobox"],
     "body": [
-      "<cds-combobox v-model=\"${1:model}\" :options=\"${2:options}\" delay=\"${3:delay}\" label=\"${4:label}\" description=\"${5:description}\" />"
+      "<cds-combobox v-model=\"${1:model}\" :items=\"${2:options}\" delay=\"${3:delay}\" label=\"${4:label}\" description=\"${5:description}\" />"
     ],
     "description": "Cds-combobox component"
   },
@@ -36,5 +36,30 @@
       "<cds-text-input v-model=\"${1:model}\" name=\"${2:name}\" delay=\"${3:delay}\" label=\"${4:label}\" description=\"${5:description}\" />"
     ],
     "description": "Cds-combobox component"
+  },
+  "CDS autocomplete": {
+    "prefix": ["c-autocomplete", "cds-autocomplete"],
+    "body": ["cds-autocomplete  v-model=\"${1:model}\" :items=\"${2:items}\" delay=\"${3:delay}\" loading=\"${4:loading}\" placeholder=\"${5:placeholder}\"></cds-autocomplete>"],
+    "description": "Cds-autocomplete component"
+  },
+  "CDS container": {
+    "prefix": ["c-container", "cds-container"],
+    "body": ["<cds-container><cds-container-item>${1:content}</cds-container-item></cds-container>"],
+    "description": "Cds-container component"
+  },
+  "CDS content switcher": {
+    "prefix": ["c-content-switcher", "cds-content-switcher"],
+    "body": ["<cds-content-switcher v-model=\"${1:model}\"><cds-content-switcher-item value=\"${1:itemValue}\">/cds-content-switcher-item></cds-content-switcher>"],
+    "description": "Cds-content-switcher component"
+  },
+  "CDS date picker": {
+    "prefix": ["c-date-picker","cds-date-picker"],
+    "body": ["<cds-date-picker v-model=\"${1:model}\" />"],
+    "description": "Cds-date-picker component"
+  },
+  "CDS date picker": {
+    "prefix": ["c-date-picker","cds-date-picker"],
+    "body": ["<cds-date-picker v-model=\"${1:model}\" />"],
+    "description": "Cds-date-picker component"
   }
 }
