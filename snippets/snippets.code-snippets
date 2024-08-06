@@ -57,9 +57,9 @@
     "body": ["<cds-date-picker v-model=\"${1:model}\" />"],
     "description": "Cds-date-picker component"
   },
-  "CDS date picker": {
-    "prefix": ["c-date-picker","cds-date-picker"],
-    "body": ["<cds-date-picker v-model=\"${1:model}\" />"],
-    "description": "Cds-date-picker component"
+  "CDS dropdown": {
+    "prefix": ["c-dropdown","cds-dropdown"],
+    "body": ["<cds-dropdown v-model=\"${1:model}\" :items=\"${2:options}\" label=\"${4:label}\" />"],
+    "description": "cds-dropdown component"
   }
 }
